@@ -16,7 +16,7 @@ namespace POS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            SplashScreen splash = new SplashScreen();
+            SplashScreen splash = new SplashScreen(); 
             Application.Run(splash);
         }
     }
